@@ -1,3 +1,4 @@
+""" Made by Magnus """
 import hashlib
 import binascii
 import os
@@ -29,7 +30,9 @@ def verify_password(stored_password, provided_password):
 
 
 def create_password():
-    """ Insert docstring here """
+    """
+    Creates a new password and returns it in the "saved_password" variable
+    """
     while True:
         print("Creating new password")
         input_password = input("Enter new password: ")
@@ -44,7 +47,7 @@ def create_password():
 
 
 def check_password(saved_password):
-    """ Insert docstring here """
+    """ Get a user input and calls the "verify_password" function """
     try:
         while True:
             print("Going to login")
