@@ -95,8 +95,6 @@ def checkSpecialKeys():
 		time.sleep(0.5)
 		p.ChangeDutyCycle(6)
 		
-
-            # TODO: RFID kort og servo motor.
         else:
             print("forkert Kode")
             print(input)
